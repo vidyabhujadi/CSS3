@@ -1,0 +1,26 @@
+.contact-card{
+    background-color:burlywood;
+    width: 250px;
+    padding: 10px;
+    margin:10px ;
+    box-shadow: -5px 5px 20px 1px gray;
+    border: 0.5px solid #808080;
+}
+.contct-icon{
+    height: 80px;
+    display: block;
+    margin: 10px auto ;
+}.contact-title{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}.title{
+    font-size: 30px;
+    color: black;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
