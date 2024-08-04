@@ -1,6 +1,46 @@
-.card{
+.menu-card{
+    background-color: burlywood;
+    width: 150px;
+    padding: 10px;
+    margin:10px ;
+    box-shadow: -5px 5px 20px 1px gray;
+    border: 0.5px solid #808080;
+}
+.menu-icon{
     height: 100px;
-    width: 100px;
-    border: 1px solid black;
-    margin: 10px;
+    display: block;
+    margin: 10px auto;
+}
+.menu-card:hover{
+    box-shadow: -5px 5px 10px 1px pink;
+    cursor: pointer;
+}
+.menu-title{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}.menu-description{
+    font-size: 12px;
+     margin-top: 0px ;
+}
+.menu-order-button{
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+    border: none;
+    padding: 1px 10px;
+    display:  block;
+    margin:5px auto ;
+}
+.menus-order-button:hover{
+    transition: 0.5s;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.menus-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }

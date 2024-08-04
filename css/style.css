@@ -39,3 +39,6 @@ body{
 .no-underline{
     text-decoration: none;
 }
+.fs-50{
+    font-size: 50px;
+}
